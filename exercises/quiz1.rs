@@ -13,10 +13,15 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(apple_numb: i32) -> i32 {
+    if  apple_numb < 41 {
+        apple_numb * 2
+    } else {
+        apple_numb
+    }
+}
 
 // Don't modify this function!
 #[test]
